@@ -15,9 +15,8 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-  function find(array, function(n) {
-    
-    }) {
+  const array = document.getElementById('grand-node');
+  function find(array, criteriaFn) {
     // initialize two variables, `current`, and `next`
     // `current` keeps track of the element that we're
     // currently on, just like we did when unpacking the
@@ -59,6 +58,13 @@ function deepestChild(){
     // if we haven't
     return null
   }
-  function criteriaFn
+  function criteriaFn(number){
+    let n = number;
+    if(n >= n > 5){
+      return false;
+    }else {
+      return true;
+    }
+  }
 
 }
