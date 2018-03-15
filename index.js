@@ -22,4 +22,9 @@ function deepestChild(){
     next = next.children[0]
   }
   return next
+  
+  while(next) {
+    node = next
+    next = node.children[0]
+  }
 }
