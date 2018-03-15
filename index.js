@@ -19,7 +19,7 @@ function deepestChild(){
   let next = node.children[0];
   next = next.node.children[0]
   next = next.node.children[0]
-  if next.node.chilren[0]
+  if next.node.children[0]
    next = next.node.children[0]
    else
     return next
