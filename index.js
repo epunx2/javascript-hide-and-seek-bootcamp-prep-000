@@ -21,8 +21,7 @@ function deepestChild(){
     next = next.children[0]
   else
     return next
-    
-    end
+  end
   
   
   while () {
