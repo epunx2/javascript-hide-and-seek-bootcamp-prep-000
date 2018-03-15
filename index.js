@@ -20,7 +20,11 @@ function deepestChild(){
   next = next.node.children[0]
   next = next.node.children[0]
   if next.node.chilren[0]
+   next = next.node.children[0]
+   else
     return next
+    
+    end
   
   
   while () {
