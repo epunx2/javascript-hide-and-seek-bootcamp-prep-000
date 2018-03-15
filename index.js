@@ -58,13 +58,6 @@ function deepestChild(){
     // if we haven't
     return null
   }
-  function criteriaFn(number){
-    let n = number;
-    if(n >= n > 5){
-      return false;
-    }else {
-      return true;
-    }
-  }
+  
 
 }
