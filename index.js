@@ -15,14 +15,9 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-  const array = document.getElementById('grand-node');
-  function find(array, criteriaFn) {
-    let current = array;
+  let array = document.getElementById('grand-node');
     let next = [];
     while (current) {
-      if (criteriaFn(current)) {
-        return current;
-      }
       if (Array.isArray(current)) {
         for (let i = 0; i < current.length; i++) {
           next.push(current[i]);
@@ -32,8 +27,6 @@ function deepestChild(){
     }
     return null
   }
-  find(array, function(n){
-    
-  });
+  
 
 }
