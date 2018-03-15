@@ -9,15 +9,13 @@ function nestedTarget(){
 function increaseRankBy(n){
   const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li');
   
-  
-  
-  let numStr = 0;
-  let strNum = n;
+  const firstList = rankedLists[0]
+  const secondList = rankedLists[1]
+
+  let children = firstList.children
 
   for (let i = 0; i < lis.length; i++) {
-    numStr = lis[i];
-    numStr = parseInt(numStr);
-    lis[i].innerHTML = numStr + strNum;
+    children[i].innerHTML = numStr + strNum;
   }
 
 }
