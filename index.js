@@ -15,7 +15,9 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-  function find(array, function) {
+  function find(array, function(n) {
+    
+    }) {
     // initialize two variables, `current`, and `next`
     // `current` keeps track of the element that we're
     // currently on, just like we did when unpacking the
