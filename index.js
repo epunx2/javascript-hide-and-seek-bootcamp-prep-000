@@ -16,7 +16,7 @@ function increaseRankBy(n){
 
 function deepestChild(){
   let array = document.getElementById('grand-node');
-    let next = [];
+    let node = array.children[0];
     while (current) {
       if (Array.isArray(current)) {
         for (let i = 0; i < current.length; i++) {
@@ -25,7 +25,6 @@ function deepestChild(){
       }
       current = next.shift();
     }
-    return null
   }
   
 
